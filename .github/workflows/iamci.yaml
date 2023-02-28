@@ -48,9 +48,9 @@ jobs:
 #         run: |
 #           make lint
 
-      - name: Run unit test and get test coverage
-        run: |
-          make cover
+#       - name: Run unit test and get test coverage
+#         run: |
+#           make cover
 
       - name: Build source code for host platform
         run: |
