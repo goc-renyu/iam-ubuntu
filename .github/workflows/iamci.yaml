@@ -4,9 +4,10 @@
 
 name: IamCI
 
-on: 
+on:
+  workflow_dispatch:
   push:
-    branchs:
+    branches:
     - '*'
   pull_request:
     types: [opened, reopened]
